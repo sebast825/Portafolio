@@ -1,0 +1,279 @@
+*{
+    margin: auto;
+    padding: 0;
+    background:#ea2;
+    
+}
+#container{
+    margin-top: 10%;
+    border:white 2px solid;
+    height: auto;
+    width:  50rem ;
+    display: flex;
+    flex-wrap: wrap;
+   padding: 3rem ;
+    margin:auto;
+    border-radius: 1REM;
+   justify-content: space-around;
+   background: black;
+}
+
+ .a, .b, .c, .d{
+    margin: 1rem;
+    width:  45% ;
+    height: 10rem;
+    border: 2px solid white;
+    align-items: center;
+    border-radius: 1REM;
+    
+} 
+
+ #puntaje{
+    width:90vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 2rem;
+    color: #468;
+    font-weight: 700;
+   
+} 
+#divColor{
+    display: flex;    
+    margin:auto;
+    padding: 1rem 1rem;
+    /* background: rgba(255, 255, 255, 0.9); */
+    background: black;
+   
+    border: 2px solid white;
+    border-radius: 10%;   
+   
+}
+#divColor div{
+    border-radius: 50%;
+    margin:0.3rem;
+    padding: 0.8rem;
+    box-shadow: 3px 5px 20px #000;
+}
+
+
+#puntaje{
+    display: flex;
+    margin: 1rem;
+
+    
+
+}
+.punajeElemento{
+    width: 20vw;
+    height: 5vh;    
+
+}  
+.punajeElemento :last-child{
+    height: 1vh;
+}
+
+.puntos{
+    
+    font-size: 1rem;
+}
+
+#numeroGanar{
+    width: 2rem;    
+    text-align: center;
+    border-color: #468;
+}
+
+
+.inicio{
+    margin:0.5;        
+    background-color: #eef;
+    border-color:white  ;
+    color: #468;
+    font-weight:700;
+    font-size: 1rem;
+    padding: 1rem;
+    padding-bottom: 2.5rem;
+    font-weight: 600;
+    border-radius: 10%;
+    /* box-shadow: 0px 3px 10px#ccc; */
+    
+   
+} 
+.inicio::before{
+    content: "Iniciar";
+    opacity: 1;
+    position:relative;
+    top: 0%;
+    left: 30%;
+    transform: translate(-50%,-50%) ;
+    transition: 0.5s ease-in;
+    letter-spacing: 3px;
+    font-weight: 800;
+    
+}
+.inicio::after{
+    content: "DobleClick-Reiniciar";
+    opacity: 0;
+    position: relative;
+    top:-50%;
+    left: -15%;
+  
+    transform: translate(-50%,-50%)scale(3);
+    transition: 0.5s ease-in;
+}
+
+ .inicio:hover::before{
+    opacity: 0;
+    
+} 
+.inicio:hover::after{
+    opacity: 1;
+   margin: 0;
+   color: #def;
+   
+    
+
+}
+  .inicio:hover{
+    background-color: #000;
+    border: 2px solid white
+}  
+
+h1{
+    margin-bottom:0.7rem ;
+    color: #ddd;
+}
+
+h2{
+    font-size: 2rem;
+}
+h4{
+    font-size: 2.7rem;
+    color: white;   
+}
+
+h3{
+    color: white;    
+}
+
+
+@media screen and (max-width:720px){
+    #container{
+       
+        margin-top: 10%;
+        border:white 2px solid;
+        height: 45vh;
+        width:  92vw ;
+         display: flex;
+        flex-wrap: wrap; 
+       padding: 1vw;
+        margin:auto;
+        border-radius: 1REM;
+       align-content: space-around;
+       background: black;
+    }
+    .a, .b, .c, .d{
+        margin: 0.5vw;
+        width:  40vw ;
+        height: 20vh;
+        border: 2px solid black;
+        align-items: center;
+        border-radius: 1REM;        
+    } 
+   
+    .inicio{
+        width: 90vw;   
+        margin: 0.5;    
+        position: relative;
+        
+    }
+    .inicio::before{
+        left:auto;
+        top: auto;
+        
+        position: absolute;
+    }
+    .inicio::after{
+        left:auto;
+        top: auto;
+        font-size: 0.5rem;
+        position: absolute;
+    }
+    .punajeElemento{
+        width: 80vw;        
+        margin-bottom:0.74rem ;
+        height: 7vh;
+    } 
+    .punajeElemento :last-child{
+        height: 1vh;
+    }
+    .contenedorBarra{
+        margin: 0rem;
+        margin-top: 1rem ;
+        width: 80vw;
+    }
+    .colorBarra{
+        max-width: 90vw;
+      margin: auto;
+    }
+}
+
+.contenedorBarra{
+    display: flex;
+     width: 98vw;
+     margin-top:1rem;
+    
+
+}
+.colorBarra{
+    
+    margin:0.7rem 0.5rem;
+    border-radius:10% ;
+    height: 1.5rem;
+    width: 0 ;
+    transition: all 0.5s linear;
+    
+    position:absolute   ;
+   
+    z-index:  1;
+    
+   
+}
+
+.numeros{
+    height: 3rem;
+    width: 99vw;
+  
+   
+    border-radius: 10rem;
+    color: #000;
+    font-size: 12.8rem;
+    background-color: #000;
+     border: 2px solid white; 
+    position: relative;
+    /* mix-blend-mode:screen; */
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.red{
+    background: #FF6636;
+   
+}
+
+.green{
+    background: #0C4;
+   
+}
+
+.blue{
+    background: #46FAF4;
+}
+
+.yellow{
+    background: #AA03EA;
+}

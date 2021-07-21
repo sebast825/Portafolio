@@ -1,0 +1,58 @@
+
+
+.divHijoCel,.divHijo{
+    border:rgb(185, 18, 149) 3px solid;
+    border-radius: 5px;
+    margin: 50px;
+    
+        display: grid;
+        grid-template-columns:230px 1fr;
+        grid-gap: 0.3rem;    
+}
+
+.divHijoCel{
+    border:blue 3px solid;
+}
+
+.divHijoCel:hover{
+    box-shadow: 0px 0px 20px  blue;
+}
+.divHijo:hover{
+    box-shadow: 0px 0px 20px rgb(185, 18, 149);
+}
+
+
+.divCel{
+    margin-left: 20px;
+    padding: 1%;
+}
+#diviano,#divianoCel{
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.divImg{
+    border: tan 3px solid;
+       
+    
+}
+.divText{
+    border: steelblue 2px solid;
+    
+}
+
+#titulo{
+    font-size:3rem;
+}
+header{
+    background-color: rgb(200, 142, 54);
+    color: rgb(224, 201, 192);
+    height:1.3rem;
+}
+footer{
+    background-color: rgb(200, 142, 54);
+    color: rgb(224, 201, 192);
+    height: 1.3rem;
+    
+}
