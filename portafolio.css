@@ -5,7 +5,11 @@ html{
     background: #232;
 }
 
-
+#tituloGit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
 header{
     top:0vh;
@@ -59,7 +63,7 @@ header{
     background: linear-gradient(10deg, rgba(2,0,36,1) 0%, rgba(0,150,255,1) 25%, rgba(0,212,255,1) 100%);  
     border-radius: 10px;    
     
-    height: 140vh ;
+    height: 160vh ;
     width: 85vw;
     margin: 1rem auto;
     margin-top: 4rem;
