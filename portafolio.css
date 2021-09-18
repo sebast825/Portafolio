@@ -32,7 +32,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     grid-gap: 10%;
-   padding: 8rem 0;
+   padding: 6rem 0;
    margin: 1rem auto;
     width: 90vw;    
     border-radius: 10px;
@@ -242,7 +242,7 @@ header p {
     #arriba{
         width: auto;
         margin: 1rem auto;
-        padding: 1rem;
+        padding:  2rem 1rem;
     }
     #arriba img{
         margin: auto;
