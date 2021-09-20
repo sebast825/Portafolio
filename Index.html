@@ -13,21 +13,19 @@
     <link rel="stylesheet" href="portafolio.css">
 
     <header>
-        <ul>
-            
-            <li><a href="#medio"><p>Habilidades</p></a></li>
-            <li><a href="#bajo"><p>Proyectos</p></a></li>
-            <li><a href=""><p>Contacto</p></a></li>
-        </ul>
+        <a href="#medio"><p>Habilidades</p></a>
+        <a href="#bajo"><p>Proyectos</p></a>
+        <a href="#arriba"><p>Contacto</p></a>
+        
     </header>
 
     
-    <div id="arriba">
-        <img src="imagenes/YOP.jpg" alt="">
+    <div id="arriba" class="scroll">
+        <img class='imgYo'src="imagenes/YOP.jpg" alt="">
         <div class="arriba-texto">
-            <h1>Sebastián Molina</h1>
-            <h2>Desarrollador Front-end</h2>
-            <p>Me interesa continuar aprendiendo JavaScript y React</p>
+            <h1 class='mover'>Sebastián Molina</h1>
+            <h2 class='mover'>Desarrollador Front-end</h2>
+            <p class='mover'>Me interesa continuar aprendiendo JavaScript y React</p>
             <div id="arribaA">
             <a href="formulario.html" target = "_blank"> <i class="far fa-envelope"></i></a>
             <a href="https://www.linkedin.com/in/sebastian-molina-6299741b8/" ><i class="fab fa-linkedin"></i></a>
@@ -38,7 +36,7 @@
     
     </div>
     
-    <div id="medio">
+    <div id="medio" class="scroll">
         
         <div class="medio-titulo"> 
         <h2 >Front End</h2>       
@@ -64,7 +62,7 @@
 
     
     
-    <div id="bajo">
+    <div id="bajo" class="scroll">
         <h2 class="bajo-titulo">Proyectos</h2>
         <div id="proyectos">
         
@@ -163,5 +161,6 @@
 
  
     <footer></footer>
+    <script src="index.js"></script>
 </body>
 </html>
