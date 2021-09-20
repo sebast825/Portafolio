@@ -29,3 +29,5 @@ const hero = document.querySelector('#arriba');
   }
 
   hero.addEventListener('mousemove',shadow)
+
+  
