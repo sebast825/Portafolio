@@ -140,7 +140,7 @@ header p {
 #arriba img{
      /* margin-left: 0rem;  */
     border-radius: 30%;    
-    padding: 0.2%;
+    padding: 1.2px;
     align-self: center;
     justify-self: flex-start;
     border-radius: 50%;
@@ -166,9 +166,7 @@ header p {
 }
 
 
-#arriba img:hover{
-    box-shadow:  0px 0px 20px  #232;
-}
+
 .arriba-texto{
     color: honeydew;
     text-decoration: none;
