@@ -96,13 +96,13 @@ const alto= document.querySelector('#arriba');
 function clase(contador){
   if (contador==-1){
     // console.log('uno')
-    return (hightlightLink(triggers[0]))
+    return (hightlightLink(triggers[2]))
   }else if(contador==1){
     // console.log('dos')
     return (hightlightLink(triggers[1]))
   }else{
     // console.log('tres')
-    return (hightlightLink(triggers[2]))
+    return (hightlightLink(triggers[0]))
   }
 }
 
