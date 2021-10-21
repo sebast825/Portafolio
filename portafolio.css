@@ -82,7 +82,7 @@ header{
     background: linear-gradient(10deg, rgba(2,0,36,1) 0%, rgba(0,150,255,1) 25%, rgba(0,212,255,1) 100%);  
     border-radius: 10px;    
     
-    height: 220vh ;
+    height: min-content;
     width: 85vw;
     margin: 1rem auto;
     margin-top: 4rem;
@@ -309,6 +309,15 @@ header p {
         /* background: white; */
         left: -17px;
        }
+
+       /* miniProjects */
+       
+       .miniProject{
+        
+        width: 100% !important;
+             
+    }
+   
 }
 
 
@@ -339,7 +348,8 @@ header p {
    color:#232;
     
 }
-.proyectos-div h3:hover{
+.proyectos-div h3:hover,
+.proyectos-div a:hover{
     text-shadow: 0px 0px 10px whitesmoke, 0px 0px 20px whitesmoke;
     color: #ddd;
    
@@ -407,5 +417,70 @@ header p {
     
 } 
 
+.miniProject{
+    margin: 1rem;
+    width: 40%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    grid-template-rows: 1fr;
+    border:3px solid black;
+    padding: 0.5rem;
+    border-radius: 20px;
+    gap: 10px;
+    
+    
+}
+
+.miniProject_contenido{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: white;
+    /* gap: -0.5rem; */
+}
+
+.miniProject_contenido h3,
+.miniProject_contenido p{
+    color: white;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    
+} 
+.miniProject_img{
+    
+    border-radius:20px ;
+    border: 3px solid black ;       
+}
+
+.miniProject img{
+    width: 100%;
+    height: 100%;
+    border-radius: 17px;
+}
 
 
+.miniProject_title{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+
+}
+.miniProject_title h3,
+.miniProject_title a{
+    text-align: center;
+    color: #ccc;
+    list-style-type:none;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #888;
+}
+
+.miniProject_title h3:hover,
+.miniProject_title a:hover{
+    text-shadow: 0px 0px 10px whitesmoke, 0px 0px 20px whitesmoke;
+    color: #ddd;
+   
+}
