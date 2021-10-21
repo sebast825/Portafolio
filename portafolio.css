@@ -86,7 +86,7 @@ header{
     width: 85vw;
     margin: 1rem auto;
     margin-top: 4rem;
-    padding-bottom: 2rem;
+    padding-bottom: 10rem;
     
 }
 footer{
@@ -420,6 +420,7 @@ header p {
 .miniProject{
     margin: 1rem;
     width: 40%;
+    height: 10rem;
     position: relative;
     display: grid;
     grid-template-columns: 0.7fr 1fr;
@@ -459,6 +460,8 @@ header p {
     width: 100%;
     height: 100%;
     border-radius: 17px;
+    
+    object-fit: cover;
 }
 
 
