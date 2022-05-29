@@ -325,7 +325,8 @@ header p {
 .bajo-titulo{
     text-align-last:center;
     padding-top: 3rem;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
+    
     color: #232;
 }
 
@@ -350,8 +351,8 @@ header p {
 }
 .proyectos-div h3:hover,
 .proyectos-div a:hover{
-    text-shadow: 0px 0px 10px whitesmoke, 0px 0px 20px whitesmoke;
-    color: #ddd;
+    /* text-shadow: 0px 0px 10px whitesmoke, 0px 0px 20px whitesmoke; */
+    color: #fff;
    
 }
 
@@ -359,33 +360,42 @@ header p {
 .box{
     width: 33vw;
     min-width: 18rem;
-    height: 45vh;
+    height: 48vh;
     text-align: center;
     position: relative;
     
-    margin: 1.5%;
+    /* margin: 1.5%; */
     margin-bottom: 10%;
 }
 
 .box img{
+    position: relative;
     width: 80%;
     height: 100%;
+    top: 0;
+    left: 0;
+    /* margin-left:2rem ; */
     object-fit: cover;
-    border: black 5px solid;
+    border: black 3px solid;
     border-radius: 10%;
     border-image-slice: 0%;
     
     
 }
+.box .hover:hover{
+    box-shadow: 5px 5px 10px #000;
+}
 
 .box .hover {
     width: 80%;
-    height: 45vh;
-    margin-top: 5px;
+    height: 100%;
+    margin-top: 3px;
+    top: 0;
+    left: 0;
     /* cambie el margen para que si es mas de una palabra quede piola y el hidden */
      margin-left: 10%; 
     position: absolute;
-    background: linear-gradient(10deg,  rgba(0,150,255,1) 0%, rgba(0,212,255,1) 100%);  
+    background: linear-gradient(10deg,  rgba(0,150,255,1) 0%, rgba(0,210,255,1) 100%);  
     color: rgba(51, 221, 51, 0);
     border-radius: 9%;
     top:0;
@@ -394,7 +404,8 @@ header p {
     align-items: center;  
   
    opacity: 0;
-   transition: 2s all;
+   transition: 1s all ease;
+
     
 }
 .box .hover p{
@@ -425,7 +436,7 @@ header p {
     display: grid;
     grid-template-columns: 0.7fr 1fr;
     grid-template-rows: 1fr;
-    border:3px solid black;
+    border:3px solid #ddd;
     padding: 0.5rem;
     border-radius: 20px;
     gap: 10px;
@@ -479,15 +490,16 @@ header p {
 .miniProject_title h3,
 .miniProject_title a{
     text-align: center;
-    color: #ccc;
+    color: #ded;
     list-style-type:none;
     text-decoration: none;
-    text-shadow: 0px 1px 0px #888;
+    /* text-shadow: 0px 1px 0px #888; */
 }
 
 .miniProject_title h3:hover,
 .miniProject_title a:hover{
-    text-shadow: 0px 0px 10px whitesmoke, 0px 0px 20px whitesmoke;
-    color: #ddd;
+    /* text-shadow: 0px 0px 10px whitesmoke, 0px 0px 20px whitesmoke; */
+    color: #fff;
+    text-shadow: 0 1px 0 #000 ;
    
 }
