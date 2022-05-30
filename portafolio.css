@@ -7,8 +7,9 @@ html{
 
 #tituloGit{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+    gap: .5rem;
 }
 
 header{
@@ -357,7 +358,11 @@ header p {
    color:#232;
     
 }
-
+.proyectos-div a{
+    font-size: 2rem;
+    margin-top: .3rem;
+  
+}
 .proyectos-div a:hover{
     /* text-shadow: 0px 0px 10px whitesmoke, 0px 0px 20px whitesmoke; */
     color: #fff;
@@ -502,6 +507,9 @@ header p {
     list-style-type:none;
     text-decoration: none;
     /* text-shadow: 0px 1px 0px #888; */
+}
+.miniProject_title i{
+    font-size: 2rem;
 }
 
 .miniProject_title h3:hover,
