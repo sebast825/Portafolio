@@ -80,7 +80,7 @@ header{
 
 
 #bajo{
-    background: linear-gradient(10deg, rgba(2,0,36,1) 0%, rgba(0,150,255,1) 25%, rgba(0,212,255,1) 100%);  
+    background: linear-gradient(10deg, rgba(2,0,36,1) 0%, rgba(0,150,255,1) 15%, rgba(0,212,255,1) 100%);  
     border-radius: 10px;    
     
     height: min-content;
@@ -345,6 +345,7 @@ header p {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    /* padding-bottom: 4rem; */
 }
 
 .proyectos-div img:hover{
@@ -371,9 +372,9 @@ header p {
 
 
 .box{
-    width: 33vw;
+    width: 40vw;
     min-width: 18rem;
-    height: 48vh;
+    height: 33vh;
     text-align: center;
     position: relative;
     
@@ -390,13 +391,14 @@ header p {
     /* margin-left:2rem ; */
     object-fit: cover;
     border: black 3px solid;
-    border-radius: 10%;
+    border-radius: 3px;
     border-image-slice: 0%;
     
     
 }
 .box .hover:hover{
-    box-shadow: 5px 5px 10px #000;
+    box-shadow: 0px 5px 20px #000;
+
 }
 
 .box .hover {
@@ -408,23 +410,26 @@ header p {
     /* cambie el margen para que si es mas de una palabra quede piola y el hidden */
      margin-left: 10%; 
     position: absolute;
-    background: linear-gradient(10deg,  rgba(0,150,255,1) 0%, rgba(0,210,255,1) 100%);  
-    color: rgba(51, 221, 51, 0);
-    border-radius: 9%;
+    /* background: linear-gradient(10deg,  rgba(0,100,200,.7) 0%, rgba(0,150,200,.7) 100%);  
+    color: rgba(51, 221, 51, 0); */
+
+     background-color: rgba(70,70,70,.65); 
+    border-radius: 3px;
     top:0;
     display: flex;
     justify-content: center;
     align-items: center;  
   
    opacity: 0;
-   transition: 1s all ease;
-
+   transition: .5s all ease;
+   
+   
     
 }
 .box .hover p{
     transition: 2s color;
     color: white;
-    text-shadow: 0px 0px 2px #000;
+    /* text-shadow: 0px 0px 2px #000; */
      transition-delay:  color 0.7s; 
 }
 .hover p{   
@@ -451,7 +456,7 @@ header p {
     grid-template-rows: 1fr;
     border:3px solid #ddd;
     padding: 0.5rem;
-    border-radius: 20px;
+    border-radius: 3px;
     gap: 10px;
     
     
@@ -477,7 +482,7 @@ header p {
 } 
 .miniProject_img{
     
-    border-radius:20px ;
+    border-radius:3px ;
     border: 3px solid black ;  
     overflow: hidden;    
 }
@@ -485,7 +490,7 @@ header p {
 .miniProject img{
     width: 100%;
     height: 100%;
-    border-radius: 17px;
+    border-radius: 3px;
     position: relative;
     object-fit: cover;
     
@@ -503,7 +508,7 @@ header p {
 .miniProject_title h3,
 .miniProject_title a{
     text-align: center;
-    color: #ded;
+    color: #444;
     list-style-type:none;
     text-decoration: none;
     /* text-shadow: 0px 1px 0px #888; */
@@ -516,6 +521,6 @@ header p {
 .miniProject_title a:hover{
     /* text-shadow: 0px 0px 10px whitesmoke, 0px 0px 20px whitesmoke; */
     color: #fff;
-    text-shadow: 0 1px 0 #000 ;
+    text-shadow: 0 1px 0 #ded ;
    
 }
