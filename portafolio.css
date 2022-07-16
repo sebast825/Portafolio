@@ -239,6 +239,7 @@ header p {
     animation-fill-mode: forwards ;
     opacity: 1;
 
+
 }
 
 @keyframes escala{
@@ -422,7 +423,8 @@ header p {
   
    opacity: 0;
    transition: .5s all ease;
-   
+   padding: 2rem;
+   box-sizing:border-box;
    
     
 }
