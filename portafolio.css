@@ -347,6 +347,7 @@ header p {
     justify-content: space-evenly;
     align-items: center;
     /* padding-bottom: 4rem; */
+    width: 85vw;
 }
 
 .proyectos-div img:hover{
@@ -392,7 +393,7 @@ header p {
     /* margin-left:2rem ; */
     object-fit: cover;
     border: black 3px solid;
-    border-radius: 3px;
+    border-radius: 13px;
     border-image-slice: 0%;
     
     
@@ -414,7 +415,7 @@ header p {
     /* background: linear-gradient(10deg,  rgba(0,100,200,.7) 0%, rgba(0,150,200,.7) 100%);  
     color: rgba(51, 221, 51, 0); */
 
-     background-color: rgba(70,70,70,.65); 
+     background-color: rgba(0, 0, 0, 0.65); 
     border-radius: 3px;
     top:0;
     display: flex;
