@@ -199,6 +199,7 @@ header p {
      display: flex;    
     justify-content: center;
     flex-wrap: wrap; 
+    gap: 4rem;
     
 }
 
@@ -208,7 +209,7 @@ header p {
     color: #ddd;
     font-size: 7rem;
     justify-items: center;
-    margin: 0rem 2rem;
+    /* margin: 0rem 2rem; */
     opacity: 1;    
     position: relative;
     
