@@ -82,7 +82,7 @@ header{
 #bajo{
     background: linear-gradient(10deg, rgba(2,0,36,1) 0%, rgba(0,150,255,1) 15%, rgba(0,212,255,1) 100%);  
     border-radius: 10px;    
-    
+    position: relative;
     height: min-content;
     width: 85vw;
     margin: 1rem auto;
@@ -341,13 +341,13 @@ header p {
 }
 
 #proyectos{
-    
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     /* padding-bottom: 4rem; */
-    width: 85vw;
+    /* width: 85vw; */
 }
 
 .proyectos-div img:hover{
@@ -451,7 +451,7 @@ header p {
 
 .miniProject{
     margin: 1rem;
-    width: 40%;
+    /* width: 40; */
     height: 10rem;
     position: relative;
     display: grid;
@@ -491,7 +491,7 @@ header p {
 }
 
 .miniProject img{
-    width: 100%;
+    width: 15rem;
     height: 100%;
     border-radius: 3px;
     position: relative;
