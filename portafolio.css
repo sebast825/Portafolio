@@ -258,7 +258,8 @@ header p {
     header{
         margin: auto;
         width: auto;    
-        height: 2.3rem;  
+        height: 2.5rem;  
+        justify-content: space-evenly;
     }
     header ul{
         margin:  0rem;
@@ -267,7 +268,7 @@ header p {
         justify-self: center;
     }
     header a{
-        font-size: 0.7rem;
+        font-size: .7rem;
         
     }
     #arriba{
