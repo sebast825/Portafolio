@@ -547,3 +547,10 @@ header p {
     text-shadow: 0 1px 0 #ded ;
    
 }
+
+
+.miniHover:hover{
+    
+    filter: brightness(40%);
+    transition: .2s all ease;
+}
