@@ -501,16 +501,23 @@ header p {
     border-radius:3px ;
     border: 3px solid black ;  
     overflow: hidden;    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
 
-.miniProject img{
+.miniProject_img img{
+    
     width: 15rem;
     height: 100%;
     border-radius: 3px;
     position: relative;
-    object-fit: cover;
-    
+    margin: auto;
+    display: block;
 }
+
 
 
 .miniProject_title{
