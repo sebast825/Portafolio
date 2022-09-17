@@ -464,7 +464,7 @@ header p {
 
 .miniProject{
     margin: 1rem;
-    /* width: 40; */
+    width: 43%;
     height: 10rem;
     position: relative;
     display: grid;
@@ -516,6 +516,8 @@ header p {
     position: relative;
     margin: auto;
     display: block;
+    zoom: 75%;
+
 }
 
 
