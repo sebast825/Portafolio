@@ -232,11 +232,11 @@ header p {
     opacity: 0;
 } 
 
-.medio-texto div i {
+.medio-texto div i,.medio-texto div img {
     transition: all 0.5s linear;
    
 }
-.medio-texto div:hover i {
+.medio-texto div:hover i,.medio-texto div:hover img {
     
     animation: iRotate 0.5s linear;
     opacity: 0;
