@@ -326,7 +326,8 @@ header p {
         color: white;
     }
     .highlight {
-       
+        border: 2px solid  rgba(0,182,255,1) ;
+
         top: 3px;
         padding: 0.4rem;
         /* background: white; */
