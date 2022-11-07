@@ -17,8 +17,7 @@ header{
     height: 3.4rem;    
     background: #232;
    /* animation: fondo 7s linear alternate infinite;     */
-    width: 92vw;
-   
+ 
     margin: auto;
     position: sticky;
     z-index: 1;
@@ -267,6 +266,7 @@ header p {
         width: auto;    
         height: 2.5rem;  
         justify-content: space-evenly;
+        padding: 0;
     }
     header ul{
         margin:  0rem;
@@ -505,7 +505,8 @@ header p {
     display: flex;
     justify-content: center;
     align-items: center;
-  
+    
+
 }
 
 .miniProject_img img{
