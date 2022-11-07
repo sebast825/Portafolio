@@ -59,11 +59,11 @@ header{
    }
 .highlight {
     transition: all 0.2s;
-    border: 3px solid  rgba(0,182,255,1) ;
+    border: 4px solid  rgba(0,182,255,1) ;
     position: absolute;
     margin: auto;
     top: 5px;
-    padding: 0.5rem;
+    padding: 0.4rem;
     /* background: white; */
     left: -51px;
     z-index: 400;
