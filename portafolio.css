@@ -35,7 +35,7 @@ header{
     grid-gap: 10%;
    padding: 6rem 0;
    margin: 1rem auto;
-    width: 90vw;    
+    width: 85vw;    
     border-radius: 10px;
     justify-content:center;
    
@@ -83,7 +83,7 @@ header{
     border-radius: 10px;    
     position: relative;
     height: min-content;
-    width: 90vw;
+    width: 85vw;
     margin: 1rem auto;
     margin-top: 4rem;
     padding-bottom: 5rem;
@@ -299,6 +299,9 @@ header p {
     .medio-titulo{
         justify-content: center;
         margin: auto;
+    }
+    .medio-texto{
+        gap: 3.4rem;
     }
     .medio-texto div {
         font-size: 6rem;
