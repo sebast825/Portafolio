@@ -464,7 +464,7 @@ header p {
 
 .miniProject{
     margin: 1rem;
-    width: 43%;
+    min-width: 15rem;
     height: 10rem;
     position: relative;
     display: grid;
@@ -499,7 +499,6 @@ header p {
 .miniProject_img{
     
     border-radius:3px ;
-    border: 3px solid black ;  
     overflow: hidden;    
     position: relative;
     display: flex;
