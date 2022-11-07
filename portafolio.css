@@ -556,3 +556,7 @@ header p {
     filter: brightness(40%);
     transition: .2s all ease;
 }
+
+img{
+    object-fit: contain;
+}
