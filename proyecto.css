@@ -1,21 +1,24 @@
 .container__project{
 /* border: 2px solid red; */
-width: min-content;
-
-
+display: flex;
+box-shadow: 0 3px 4px -2px  black;
 }
 
 .project__img{
-  max-width: 20rem;
-  height: 14rem;
+  width: 50rem;
+  height:15rem;
+  margin: auto .5rem;
   position: relative;
+  
+
 }
 
 .project__img img{
    position: absolute;
    width: 100%;
    height: 100%;
-   /* filter: brightness(.5); */
+   border: 1px solid black;
+   filter: brightness(.8); 
 }
 .project__content{
    padding: 0 1rem;
