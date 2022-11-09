@@ -1,4 +1,14 @@
 
+.atr{
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+   justify-content: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+ 
+  margin: 1rem auto;
+}
 .container__project{
 /* border: 2px solid red; */
 display: flex;
