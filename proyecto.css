@@ -18,9 +18,7 @@ max-width: 900px;
 margin: 0;
 margin-bottom: 2rem;
 padding-bottom: 1rem;
-
-
-
+border-radius: 3px;
 }
 @media only screen and (max-width:600px) {
    .container__project{
@@ -86,6 +84,7 @@ padding-bottom: 1rem;
    padding: .2rem;
    color: #232;
 transform: scale(.9);
+
 }
 
 .project__link{
@@ -94,6 +93,7 @@ transform: scale(.9);
    gap: .5rem;
    font-weight: 1000;
    padding: 1rem 0;
+   
 }
 .project__link :hover{
    color: white;

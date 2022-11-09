@@ -4,7 +4,9 @@ html{
     scroll-behavior: smooth ;
     background: #232;
 }
-
+body{
+    margin: 0;
+}
 #tituloGit{
     display: flex;
     flex-direction: row;
@@ -65,7 +67,7 @@ header{
     top: 5px;
     padding: 0.4rem;
     /* background: white; */
-    left: -51px;
+    left: -42px;
     z-index: 400;
     border-radius: 20px;
     display: block;
@@ -334,7 +336,7 @@ header p {
         top: 3px;
         padding: 0.4rem;
         /* background: white; */
-        left: -17px;
+        left: -9px;
        }
 
        /* miniProjects */
