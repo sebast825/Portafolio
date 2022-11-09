@@ -2,10 +2,13 @@
 .container__project{
 /* border: 2px solid red; */
 display: flex;
-box-shadow: 2px 5px 6px -1px  black;
-max-width: 700px;
+box-shadow: 0px 5px 6px -2px  black;
+max-width: 900px;
+margin: 0;
 margin-bottom: 2rem;
 padding-bottom: 1rem;
+
+
 
 }
 @media only screen and (max-width:600px) {
@@ -14,6 +17,12 @@ padding-bottom: 1rem;
    padding-bottom: .5rem;
    }
 }
+@media only screen and (max-width:900px) {
+   .container__project{
+      /* max-width: 600px; */
+   }
+}
+
 
 .project__img{
   width: 30rem;
@@ -22,13 +31,19 @@ padding-bottom: 1rem;
   position: relative;
 
 }
+
+@media only screen and (max-width:900px) {
+   .project__img{
+       width: 30rem; 
+      
+   }
+}
 @media only screen and (max-width:600px) {
    .project__img{
       width: inherit;
   margin: 0;
    }
 }
-
 .project__img img{
    position: absolute;
    width: 100%;
