@@ -88,8 +88,11 @@ header{
     width: 85vw;
     margin: 1rem auto;
     margin-top: 4rem;
-    padding-bottom: 5rem;
+    padding-bottom: 10rem;
     
+}
+
+
 }
 footer{
     height: 2rem;
@@ -322,7 +325,10 @@ header p {
     #bajo{
         width: auto;
         height: auto;
-        
+    
+                padding-bottom: 15rem;
+                background: linear-gradient(10deg, rgba(2,0,36,1) 0%, rgba(0,150,255,1) 5%, rgba(0,212,255,1) 100%);  
+            
     }  
     footer{
         margin: auto;
@@ -367,6 +373,7 @@ header p {
     align-items: center;
     /* padding-bottom: 4rem; */
     /* width: 85vw; */
+    gap: 3rem;
 }
 
 .proyectos-div img:hover{
