@@ -14,7 +14,9 @@
 display: flex;
 box-shadow: 0px 2px 16px -4px   black;
 width: 900px;
-max-width: 900px;
+max-width: 780px;
+
+max-height: 15rem;
 margin: 0;
 margin-bottom: 2rem;
 padding-bottom: 1rem;
@@ -30,11 +32,13 @@ background-color: rgba(255, 255,255,.2);
    width: auto;
    box-shadow: 0px 2px 7px -4px   black;
    padding:  0;
+ 
    }
 }
 @media only screen and (max-width:900px) {
    .container__project{
        max-width: 600px; 
+       max-height: unset;
    }
 }
 
@@ -80,11 +84,20 @@ background-color: rgba(255, 255,255,.2);
 }
 .project__content{
    padding: 0 1rem;
+ 
 }
 .project__tittle h3{
    font-size: 2rem;
    margin-bottom: .3rem;
+
 }
+
+@media only screen and (max-width:600px) {
+   .project__tittle h3{
+      margin-top: 1.5rem;
+   }
+}
+
 .project__description p{
    margin: .5rem 0;
 }
@@ -116,4 +129,10 @@ transform: scale(.9);
 }
 .project__link a{
   text-decoration: underline; 
+}
+
+.project__content{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
 }
