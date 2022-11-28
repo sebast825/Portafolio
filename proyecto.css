@@ -109,7 +109,7 @@ transform: scale(.9);
    
 }
 .project__link :hover{
-   color: white;
+   color: #000;
 }
 .project__link--github{
    transform: scale(1.3);
